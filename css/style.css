@@ -69,21 +69,6 @@ nav li a, .navbar-brand{
  max-width: 700px;
 }
 
-.staticCube {
-  display: block;
-}
-
-.hiddenCube {
- display: none;
-}
-
-.staticCube:hover {
- display: none;
-}
-
-.hiddenCube:hover {
- display: block;
-}
 
 /*footer*/
 /*--------------------------------------------------------------------------------------------------------------------------------*/
