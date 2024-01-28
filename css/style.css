@@ -46,11 +46,18 @@ nav li a, .navbar-brand{
   background-image: url(../startpage6.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 800px;
   font-family: Montserrat-bold;
   text-transform: uppercase;
   color: #1cedce;
   z-index: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .jumbotron {
+    background-position: 30% 0%;
+  }
 }
 
 .jumbotron h1 {
@@ -65,8 +72,12 @@ nav li a, .navbar-brand{
   margin-top: 5%;
 }
 
+.defaultCubeHover {
+  width: 100%;
+}
+
 .defaultCubeHover img{
- max-width: 700px;
+ max-width: 60%;
 }
 
 
