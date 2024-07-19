@@ -1,11 +1,11 @@
 @font-face {
-    font-family: Montserrat;
-    src: url(font/Montserrat-Regular.ttf);
+  font-family: Montserrat;
+  src: url(font/Montserrat-Regular.ttf);
 }
 
 @font-face {
-    font-family: Montserrat-bold;
-    src: url(font/Montserrat-ExtraBold.ttf);
+  font-family: Montserrat-bold;
+  src: url(font/Montserrat-ExtraBold.ttf);
 }
 
 body {
@@ -30,13 +30,14 @@ body .container-fluid {
   margin: 2%;
 }
 
-nav li a, .navbar-brand{
+nav li a,
+.navbar-brand {
   color: white;
   font-size: 16px;
 }
 
 .bg-dark {
-    background-color: #2f2f2f!important;
+  background-color: #2f2f2f !important;
 }
 
 /*heroimage*/
@@ -68,7 +69,7 @@ nav li a, .navbar-brand{
   font-size: 25px;
 }
 
-.jumbotron .container{
+.jumbotron .container {
   margin-top: 5%;
 }
 
@@ -76,10 +77,9 @@ nav li a, .navbar-brand{
   width: 100%;
 }
 
-.defaultCubeHover img{
- max-width: 60%;
+.defaultCubeHover img {
+  max-width: 60%;
 }
-
 
 /*footer*/
 /*--------------------------------------------------------------------------------------------------------------------------------*/
@@ -120,7 +120,7 @@ footer {
   opacity: 1;
 }
 
-.card a:hover img{
+.card a:hover img {
   filter: brightness(40%);
 }
 
@@ -144,7 +144,7 @@ h2 {
 }
 
 video {
- /*background-color: pink;*/
+  /*background-color: pink;*/
   /*width: 100%;*/
   border-radius: 7px;
 }
@@ -152,11 +152,12 @@ video {
 .carousel-inner {
   width: 100%;
   border-radius: 7px;
-  margin: 5% 0% 5% 0% ;
+  margin: 5% 0% 5% 0%;
 }
 
-.carousel-control-next, .carousel-control-prev  {
-    filter: invert(100%);
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
 }
 
 .carousel .carousel-indicators li {
@@ -181,8 +182,8 @@ h4 {
 /*reconnect*/
 /*-----------------------------------------------------------------------------------------*/
 .gallery {
-margin-bottom: 5%;
-margin-top: 5%;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 
 .gallery img {
@@ -197,7 +198,6 @@ margin-top: 5%;
   visibility: hidden;
 }
 
-
 /*media queries*/
 @media (max-width: 768px) {
   .hidden {
@@ -211,14 +211,14 @@ margin-top: 5%;
   }
 
   .nocuddling {
-      margin-bottom: 5%;
-    }
+    margin-bottom: 5%;
+  }
 }
 
 @media (max-width: 576px) {
   .nocuddling {
-      margin-bottom: 7%;
-    }
+    margin-bottom: 7%;
+  }
 }
 
 .gallery2 {
@@ -231,13 +231,15 @@ margin-top: 5%;
   border-radius: 7px;
 }
 
-.hellorobot_web, .livingartifacts {
+.hellorobot_web,
+.livingartifacts {
   text-align: center;
   text-decoration: none;
   color: white;
 }
 
-.hellorobot_web a, .livingartifacts a {
+.hellorobot_web a,
+.livingartifacts a {
   color: #2f2f2f;
   background-color: white;
   padding: 12px;
@@ -248,7 +250,8 @@ margin-top: 5%;
   font-weight: bold;
 }
 
-.hellorobot_web a:hover, .livingartifacts a:hover {
+.hellorobot_web a:hover,
+.livingartifacts a:hover {
   text-decoration: none;
   background-color: #1cedce;
 }
@@ -264,9 +267,8 @@ margin-top: 5%;
   object-fit: cover;
 }
 
-
 .collaboration a {
-  color: white
+  color: white;
 }
 
 .collaboration a:hover {
@@ -278,7 +280,6 @@ h5 {
   margin-bottom: 5%;
   color: #1cedce;
   font-weight: bolder;
-
 }
 
 .weather p {
@@ -294,7 +295,6 @@ h5 {
 .description p {
   opacity: 0.6;
   text-align: center;
-
 }
 
 .description {
@@ -318,7 +318,7 @@ h5 {
   opacity: 1;
 }
 
-.changeCover a{
+.changeCover a {
   color: #2f2f2f;
   background-color: #2f2f2f;
   padding: 0;
@@ -359,13 +359,13 @@ h5 {
 /*----MagicMaterials--------------------------------------------------------------------------------------------------------------------------*/
 
 .mmheadline {
-    text-transform: uppercase;
-      font-size: 16px;
-      font-weight: bold;
-      text-align: center;
-      padding: 2%;
-      margin-top: 5%;
-      margin-bottom: 1%;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 2%;
+  margin-top: 5%;
+  margin-bottom: 1%;
 }
 
 /*----Sketchfab-----------------------------------------------------------------------------------------------------------------------------*/
