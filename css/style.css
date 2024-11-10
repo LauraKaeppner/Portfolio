@@ -44,15 +44,15 @@ nav li a,
 /*--------------------------------------------------------------------------------------------------------------------------------*/
 
 .jumbotron {
-  /*background-image: url(../startpage6.jpg);*/
+  background-image: url(../startpage6.jpg);
   position: relative;
   z-index: -2;
   padding: 0px !important;
   background-color: #ffffff;
   height: 800px;
-  /*background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;*/
+  background-position: center;
 }
 
 .video-background {
@@ -64,7 +64,6 @@ nav li a,
   min-width: 100%;
   min-height: 100%;
   object-fit: cover;
-
 }
 
 @media screen and (max-width: 768px) {
