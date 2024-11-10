@@ -46,7 +46,7 @@ nav li a,
 .jumbotron {
   background-image: url(../startpage6.jpg);
   position: relative;
-  z-index: -2;
+  /* z-index: -2; */
   padding: 0px !important;
   background-color: #ffffff;
   height: 800px;
