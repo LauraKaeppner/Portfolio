@@ -44,15 +44,27 @@ nav li a,
 /*--------------------------------------------------------------------------------------------------------------------------------*/
 
 .jumbotron {
-  background-image: url(../startpage6.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  /*background-image: url(../startpage6.jpg);*/
+  position: relative;
+  z-index: -2;
+  padding: 0px !important;
+  background-color: #ffffff;
   height: 800px;
-  font-family: Montserrat-bold;
-  text-transform: uppercase;
-  color: #1cedce;
-  z-index: 0;
+  /*background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;*/
+}
+
+.video-background {
+  position: absolute;
+  overflow: hidden;
+  z-index: -1000;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+
 }
 
 @media screen and (max-width: 768px) {
@@ -61,16 +73,18 @@ nav li a,
   }
 }
 
-.jumbotron h1 {
+.start {
+  color: #1cedce;
+  text-transform: uppercase;
+  font-family: Montserrat-bold;
+}
+
+.start h1 {
   font-size: 80px;
 }
 
-.jumbotron p {
+.start p {
   font-size: 25px;
-}
-
-.jumbotron .container {
-  margin-top: 5%;
 }
 
 .defaultCubeHover {
