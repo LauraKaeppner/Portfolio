@@ -326,6 +326,7 @@ h5 {
   position: absolute;
   left: 0;
   opacity: 0;
+  transition: 1.2s;
 }
 
 .cover2:hover {
