@@ -14,8 +14,36 @@ body {
   font-family: Montserrat;
 }
 
-body .container-fluid {
-  width: 70%;
+/*media queries body*/
+
+@media (min-width: 576px) {
+  body .container-fluid {
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) {
+  body .container-fluid {
+    width: 80%;
+  }
+}
+
+@media (min-width: 992px) {
+  body .container-fluid {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  body .container-fluid {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1400px) {
+  body .container-fluid {
+    width: 70%;
+  }
 }
 
 /*nav*/
