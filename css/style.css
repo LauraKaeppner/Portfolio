@@ -8,6 +8,11 @@
   src: url(font/Montserrat-ExtraBold.ttf);
 }
 
+@font-face {
+  font-family: LaurasLoot;
+  src: url(font/Laurasloot2Bold-Bold.ttf);
+}
+
 body {
   background-color: #2f2f2f;
   color: white;
