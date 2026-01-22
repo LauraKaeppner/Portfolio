@@ -175,6 +175,44 @@ footer {
   margin-bottom: 3%;
 }
 
+ul.filters {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 30px 0;
+}
+
+ul.filters > li {
+  list-style: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+ul.filters > li > a {
+  color: white;
+  opacity: 0.6;
+  display: block;
+  text-decoration: none;
+  padding: 5px 20px;
+}
+
+ul.filters > li > a:hover {
+  color: #2f2f2f;
+  background-color: #1cedce;
+  border-radius: 7px;
+  opacity: 1;
+  font-weight: bold;
+}
+
+ul.filters > li.active > a {
+  color: #2f2f2f;
+  background-color: white;
+  border-radius: 7px;
+  opacity: 1;
+  font-weight: bold;
+}
+
 /*lightsout*/
 /*--------------------------------------------------------------------------------------------------------------------------------*/
 h2 {
