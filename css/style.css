@@ -146,7 +146,7 @@ footer {
 }
 
 .card img {
-  border-radius: 7px;
+  border-radius: 10px;
 }
 
 .card h3 {
@@ -236,7 +236,7 @@ video {
 
 .carousel-inner {
   width: 100%;
-  border-radius: 7px;
+  border-radius: 10px;
   margin: 5% 0% 5% 0%;
 }
 
@@ -274,7 +274,7 @@ h4 {
 .gallery img {
   width: 100%;
   height: 100%;
-  border-radius: 7px;
+  border-radius: 10px;
   object-fit: cover;
 }
 
@@ -313,7 +313,7 @@ h4 {
 .gallery2 img {
   width: 100%;
   height: 100%;
-  border-radius: 7px;
+  border-radius: 10px;
 }
 
 .hellorobot_web,
@@ -328,7 +328,7 @@ h4 {
   color: #2f2f2f;
   background-color: white;
   padding: 12px;
-  border-radius: 7px;
+  border-radius: 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -348,7 +348,7 @@ h4 {
 .gallery3 img {
   width: 100%;
   height: auto;
-  border-radius: 7px;
+  border-radius: 10px;
   object-fit: cover;
 }
 
@@ -373,6 +373,10 @@ h5 {
 
 .gallery-weather {
   margin-top: 15%;
+}
+
+.gallery3 img {
+  border-radius: 10px;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------*/
@@ -408,7 +412,7 @@ h5 {
   color: #2f2f2f;
   background-color: #2f2f2f;
   padding: 0;
-  border-radius: 7px;
+  border-radius: 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
